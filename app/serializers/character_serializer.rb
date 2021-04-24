@@ -1,4 +1,4 @@
 class CharacterSerializer
   include JSONAPI::Serializer
-  attributes :name, :ta_veren, :abilities, :title, :home, :group_id
+  attributes :name, :ta_veren, :abilities, :title, :home, :group_id, :image
 end
