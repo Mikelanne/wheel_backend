@@ -43,7 +43,7 @@
 # Group.create(name: "Followers of The Dragon", location_id: 17, description: "This is a group of misfits who are following the Dragon doing various tasks, but without a formal group.")
 
 # Character.create(name: "Rand Al'Thor", ta_veren: true, abilities: "Uses the One Power. Has control of Callandor, a sword made of the One Power.", title: "The Dragon Reborn", home: "The Two Rivers", group_id: 10)
-Character.create(name: "Avienda", ta_veren: false, abilities: "Being a former Maiden, Avienda has combat skills. She also has the ability to use the One Power.", title: "Training Wise One", home: "Bitter Water sept of the Taardad Aiel.", group_id: 6, image: "http://jcsalomon.github.io/wot-chapter-icons/Aiel-icon.svg")
+# Character.create(name: "Avienda", ta_veren: false, abilities: "Being a former Maiden, Avienda has combat skills. She also has the ability to use the One Power.", title: "Training Wise One", home: "Bitter Water sept of the Taardad Aiel.", group_id: 6, image: "http://jcsalomon.github.io/wot-chapter-icons/Aiel-icon.svg")
 # Character.create(name: "Egwene al'Vere", ta_veren: false, abilities: "Uses the One Power. Raised to Accepted in the White Tower.", title: "Aes Sedai", home: "The Two Rivers", group_id: 1)
 # Character.create(name: "Elayne of House Trakand", ta_veren: false, abilities: "Uses the One Power. Raised to Accepted in the White Tower.", title: "Daughter-Heir of Andor, Aes Sedai", home: "Caemlyn", group_id: 1)
 # Character.create(name: "Juilin Sandar", ta_veren: false, abilities: "Theif-catcher, combat abilities.", title: "Theif-Catcher", home: "Tear", group_id: 10)
