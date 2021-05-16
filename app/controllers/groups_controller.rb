@@ -5,8 +5,6 @@ class GroupsController < ApplicationController
         render json: GroupSerializer.new(groups)
     end
 
-
-
 end
 
 

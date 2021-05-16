@@ -20,6 +20,15 @@ class CharactersController < ApplicationController
         end
     end
 
+    def update
+        character = Character.find(params[:id])
+        if character.update(character_params)
+            render json: CharacterSerializer.new(character)
+        else
+            render json: {message: "unable to update character"}
+        end
+    end
+
     private
 
     def character_params
